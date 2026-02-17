@@ -1,0 +1,21 @@
+[workspace]
+authors = ["Andrew Sanders <acs0068@uah.edu>"]
+channels = ["conda-forge"]
+name = "ClassExercise5"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ipykernel = ">=7.2.0,<8"
+pip = ">=26.0.1,<27"
+geopandas = ">=1.1.2,<2"
+pandas = ">=3.0.0,<4"
+matplotlib = ">=3.10.8,<4"
+cartopy = ">=0.25.0,<0.26"
+shapely = ">=2.1.2,<3"
+fiona = ">=1.10.1,<2"
+pyogrio = ">=0.12.1,<0.13"
+folium = ">=0.20.0,<0.21"
+notebook = ">=7.5.3,<8"
